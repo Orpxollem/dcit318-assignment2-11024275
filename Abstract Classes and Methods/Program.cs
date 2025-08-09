@@ -43,8 +43,8 @@ namespace AbstractClass
     {
         static void Main(string[] args)
         {
-            Circle circle = new Circle(5);
-            Rectangle rectangle = new Rectangle(4, 6);
+            Circle circle = new Circle(7);
+            Rectangle rectangle = new Rectangle(9, 11);
 
             Console.WriteLine($"Area of the Circle: {circle.GetArea()}");
             Console.WriteLine($"Area of the Rectangle: {rectangle.GetArea()}");
